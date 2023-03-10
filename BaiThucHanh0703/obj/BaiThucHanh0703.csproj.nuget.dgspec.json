@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VuKhacTruong\\VuKhacTruongBTH\\VuKhacTruongBTH.csproj": {}
+    "C:\\VuKhacTruong\\BaiThucHanh0703\\BaiThucHanh0703.csproj": {}
   },
   "projects": {
-    "C:\\VuKhacTruong\\VuKhacTruongBTH\\VuKhacTruongBTH.csproj": {
+    "C:\\VuKhacTruong\\BaiThucHanh0703\\BaiThucHanh0703.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VuKhacTruong\\VuKhacTruongBTH\\VuKhacTruongBTH.csproj",
-        "projectName": "VuKhacTruongBTH",
-        "projectPath": "C:\\VuKhacTruong\\VuKhacTruongBTH\\VuKhacTruongBTH.csproj",
+        "projectUniqueName": "C:\\VuKhacTruong\\BaiThucHanh0703\\BaiThucHanh0703.csproj",
+        "projectName": "BaiThucHanh0703",
+        "projectPath": "C:\\VuKhacTruong\\BaiThucHanh0703\\BaiThucHanh0703.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\VuKhacTruong\\VuKhacTruongBTH\\obj\\",
+        "outputPath": "C:\\VuKhacTruong\\BaiThucHanh0703\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
