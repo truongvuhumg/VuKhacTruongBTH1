@@ -1,0 +1,30 @@
+@model IEnumerable<BTH20_02.Models.Customer>
+    <p>
+        <a  class="btn btn-success" asp-action="Create">Create a new Customer</a>
+    </p>
+    <table class="table table-all">
+        <tr>
+            <th>CustomerID</th>
+            <th>CustomerName</th>
+            <th>CustomerAddress</th>
+             <th>CustomerPhone</th>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.CustomerID)</td>
+                <td>@Html.DisplayFor(m => item.CustomerName)</td>
+                <td>@Html.DisplayFor(m => item.CustomerAddress)</td>
+                <td>@Html.DisplayFor(m => item.CustomerPhone)</td>
+
+            </tr>
+            <td>
+                <a asp-action ="Edit" asp-route-id="@item.CustomerID">Sửa</a>
+                <a asp-action ="Delete" asp-route-id="@item.CustomerID">Xóa</a>
+            </td>
+        }
+       
+
+
+    </table>

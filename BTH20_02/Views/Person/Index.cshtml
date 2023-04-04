@@ -1,0 +1,33 @@
+@model IEnumerable<BTH20_02.Models.Person>
+    <p>
+        <a  class="btn btn-success" asp-action="Create">Create a new Person</a>
+    </p>
+    <table class="table table-all">
+        <tr>
+            <th>PersonID</th> 
+            <th>PersonName</th>
+            <th>PersonAge</th>
+            <th>PersonAddres</th>
+            
+            
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.PersonID)</td>
+                <td>@Html.DisplayFor(m => item.PersonName)</td>
+                <td>@Html.DisplayFor(m => item.PersonAddress)</td>
+                <td>@Html.DisplayFor(m => item.PersonAge)</td>
+               
+
+            </tr>
+            <td>
+                <a asp-action ="Edit" asp-route-id="@item.PersonID">Sửa</a>
+                <a asp-action ="Delete" asp-route-id="@item.PersonID">Xóa</a>
+            </td>
+        }
+       
+
+
+    </table>
